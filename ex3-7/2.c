@@ -11,7 +11,7 @@ int times() {
 void loop(int len) {
   int y;
   len = len - 1;
-  for (int i=0; i<len; i++) {
+  for (i=0; i<len; i++) {
     y = times();
     if (max_y < y) {
       max_y = y;
